@@ -25,16 +25,17 @@ public class Ventana1 extends javax.swing.JDialog {
        jtxtResultado.setText(String.valueOf(result));
     }
      
-     public void Dividir(Integer num1, Integer num2) throws MyException{
+     public void Dividir(Integer NumeroPri, Integer NumeroSec) throws MyException{
          
+         //Decision Hecha por Abel
          if("0".equals(jtxtNumero2.getText())){
              throw new MyException ("No se puede dividir para cero");
 
          }else if("1".equals(jtxtNumero2.getText())){
              throw new MyException("Dividir para uno no es un reto..");
      }else{
-             Integer result = num1 / num2;
-             jtxtResultado.setText(String.valueOf(result));
+             Integer resultado = NumeroPri / NumeroSec;
+             jtxtResultado.setText(String.valueOf(resultado));
          } 
     }
      
