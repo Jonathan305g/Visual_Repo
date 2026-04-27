@@ -64,7 +64,7 @@ public class Ventana1 extends javax.swing.JDialog {
     int posicion = Integer.valueOf(jtxtPosition.getText().trim());
     
     if (posicion < 0 || posicion >= vector.length) {
-        throw new MyException("La posición " + posicion + " no existe, el vector tiene " + vector.length + " posiciones (0 al " + (vector.length - 1) + ")");
+        throw new MyException("La p " + posicion + " no e, el vector t " + vector.length + " posiciones (0 al " + (vector.length - 1) + ")");
     }
     
     jtxtResulVec.setText(String.valueOf(vector[posicion]));
