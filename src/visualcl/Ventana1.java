@@ -20,8 +20,8 @@ public class Ventana1 extends javax.swing.JDialog {
         Integer resultado = Integer.valueOf(jtxtNumero1.getText())+ Integer.valueOf(jtxtNumero2.getText());
         jtxtResultado.setText(String.valueOf(resultado));
     }
-     public void Sumar2(Integer numero1, Integer numero2) throws MyException{
-       Integer result = numero1 + numero2;
+     public void Sumar2(Integer nummero1, Integer nummero2) throws MyException{
+       Integer result = nummero1 + nummero2;
        jtxtResultado.setText(String.valueOf(result));
     }
      
@@ -64,11 +64,16 @@ public class Ventana1 extends javax.swing.JDialog {
     int posicion = Integer.valueOf(jtxtPosition.getText().trim());
     
     if (posicion < 0 || posicion >= vector.length) {
-        throw new MyException("La posición " + posicion + " no existe, el vector tiene " + vector.length + " posiciones (0 al " + (vector.length - 1) + ")");
+        throw new MyException("La p " + posicion + " no e, el vector t " + vector.length + " posiciones (0 al " + (vector.length - 1) + ")");
     }
     
     jtxtResulVec.setText(String.valueOf(vector[posicion]));
 }
+   
+   public void Jonathan(){
+   
+   
+   }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
