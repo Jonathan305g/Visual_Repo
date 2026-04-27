@@ -20,8 +20,8 @@ public class Ventana1 extends javax.swing.JDialog {
         Integer resultado = Integer.valueOf(jtxtNumero1.getText())+ Integer.valueOf(jtxtNumero2.getText());
         jtxtResultado.setText(String.valueOf(resultado));
     }
-     public void Sumar2(Integer num1, Integer num2) throws MyException{
-       Integer result = num1 + num2;
+     public void Sumar2(Integer nummero1, Integer nummero2) throws MyException{
+       Integer result = nummero1 + nummero2;
        jtxtResultado.setText(String.valueOf(result));
     }
      
