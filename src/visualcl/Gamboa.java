@@ -12,4 +12,11 @@ public class Gamboa {
     
     //HOLA
     
+    //Juan Pablo Paredes
+    
+    //David Salinas
+    
+    //Andres Toasa
+    
+    
 }
